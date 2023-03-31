@@ -16,5 +16,10 @@ pipeline{
                 echo "welcome to jenkins"
             }
         }
+        stage('4-we are happy'){
+            steps{
+                sh 'lsblk'
+            }
+        }
     }
 }
